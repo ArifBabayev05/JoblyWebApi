@@ -1,26 +1,35 @@
 ﻿<Properties StartupConfiguration="{E7E80DF8-22D1-4CF2-89B5-3DC52E513684}|Default">
-  <MonoDevelop.Ide.ItemProperties.Jobly__Web__Api FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.ItemProperties.Core FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="DataAccess/Abstract/IProductDAL.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Core/EntityFramework/EfEntityRepositoryBase.cs">
     <Files>
-      <File FileName="Entities/Concrete/Vacancy.cs" Line="6" Column="35" />
-      <File FileName="Core/Entities/IEntity.cs" Line="1" Column="1" />
-      <File FileName="DataAccess/Abstract/IProductDAL.cs" Line="2" Column="9" />
-      <File FileName="Core/DataAccess/IEntityRepository.cs" Line="14" Column="31" />
+      <File FileName="Jobly_Web_Api/Controllers/VacanciesController.cs" Line="71" Column="44" />
+      <File FileName="Business/DependencyResolvers/AutoFac/AutofacBusinessModule.cs" Line="15" Column="64" />
+      <File FileName="Jobly_Web_Api/Program.cs" Line="10" Column="8" />
+      <File FileName="Jobly_Web_Api/appsettings.json" Line="1" Column="1" />
+      <File FileName="Core/EntityFramework/EfEntityRepositoryBase.cs" Line="20" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Jobly_Web_Api" expanded="True">
-            <Node name="Core" expanded="True">
-              <Node name="DataAccess" expanded="True" />
-            </Node>
-            <Node name="DataAccess" expanded="True" />
-            <Node name="Entities" expanded="True">
+            <Node name="Business" expanded="True">
+              <Node name="Abstract" expanded="True" />
               <Node name="Concrete" expanded="True" />
+              <Node name="Constants" expanded="True" />
+              <Node name="DependencyResolvers" expanded="True">
+                <Node name="AutoFac" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Core" expanded="True">
+              <Node name="EntityFramework" expanded="True" />
+            </Node>
+            <Node name="Jobly_Web_Api" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Properties" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -30,9 +39,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Jobly__Web__Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.DataAccess FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Business FirstBuild="True" />
-  <MultiItemStartupConfigurations />
 </Properties>

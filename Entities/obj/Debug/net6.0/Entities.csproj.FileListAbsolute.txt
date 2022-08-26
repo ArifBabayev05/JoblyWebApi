@@ -13,3 +13,5 @@
 /Users/imac/Desktop/Jobly_Web_API/Jobly_Web_Api/Entities/obj/Debug/net6.0/refint/Entities.dll
 /Users/imac/Desktop/Jobly_Web_API/Jobly_Web_Api/Entities/obj/Debug/net6.0/Entities.pdb
 /Users/imac/Desktop/Jobly_Web_API/Jobly_Web_Api/Entities/obj/Debug/net6.0/ref/Entities.dll
+/Users/imac/Desktop/Jobly_Web_API/Jobly_Web_Api/Entities/bin/Debug/net6.0/Entities.runtimeconfig.json
+/Users/imac/Desktop/Jobly_Web_API/Jobly_Web_Api/Entities/obj/Debug/net6.0/Entities.genruntimeconfig.cache
