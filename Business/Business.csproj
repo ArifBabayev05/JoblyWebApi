@@ -13,6 +13,9 @@
     <None Remove="Autofac" />
     <None Remove="DependencyResolvers\" />
     <None Remove="DependencyResolvers\AutoFac\" />
+    <None Remove="Microsoft.EntityFrameworkCore.SqlServer" />
+    <None Remove="Microsoft.EntityFrameworkCore.Tools" />
+    <None Remove="Microsoft.EntityFrameworkCore" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Abstract\" />
@@ -27,5 +30,11 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Autofac" Version="6.4.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.8">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.8" />
   </ItemGroup>
 </Project>
