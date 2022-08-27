@@ -26,28 +26,28 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Vacancy>>(_vacancyDal.GetList().ToList());
         }
 
-        public IDataResult<List<Vacancy>> GetListByCategory(int id)
+        public IDataResult<List<Vacancy>> GetListByCategory(int categoryId)
         {
-            return new SuccessDataResult<List<Vacancy>>(_vacancyDal.GetList(p => p.Id == id).ToList());
+            return new SuccessDataResult<List<Vacancy>>(_vacancyDal.GetList(p => p.CategoryId == categoryId).ToList());
         }
 
         public IResult Add(Vacancy vacancy)
         {
             _vacancyDal.Add(vacancy);
-            return new SuccessResult(Messages.VacancyAdded);
+            return new SuccessResult(Messages.Added);
         }
 
         public IResult Delele(Vacancy vacancy)
         {
             _vacancyDal.Delete(vacancy);
-            return new SuccessResult(Messages.VacancyDeleted);
+            return new SuccessResult(Messages.Deleted);
 
         }
 
         public IResult Update(Vacancy vacancy)
         {
             _vacancyDal.Update(vacancy);
-            return new SuccessResult(Messages.VacancyUpdated);
+            return new SuccessResult(Messages.Updated);
 
         }
     }

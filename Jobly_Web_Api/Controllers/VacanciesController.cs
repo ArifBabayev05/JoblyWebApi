@@ -35,9 +35,9 @@ namespace Jobly_Web_Api.Controllers
         }
 
         [HttpGet("getlistbycategory")]
-        public IActionResult GetListByCategory(int id )
+        public IActionResult GetListByCategory(int categoryId )
         {
-            var result = _vacancyService.GetListByCategory(id);
+            var result = _vacancyService.GetListByCategory(categoryId);
             if (result.Success)
             {
                 return Ok(result.Data);
