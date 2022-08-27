@@ -14,6 +14,13 @@ namespace Business.DependencyResolvers.AutoFac
             builder.RegisterType<VacancyManager>().As<IVacancyService>();
             builder.RegisterType<EfVacancyDal>().As<IVacancyDal>();
 
+            builder.RegisterType<CategoryManager>().As<ICategoryService>();
+            builder.RegisterType<EfCategoryDal>().As<ICategoryDal>();
+
+            builder.RegisterType<CompanyManager>().As<ICompanyService>();
+            builder.RegisterType<EfCompanyDal>().As<ICompanyDal>();
+
+
         }
     }
 }

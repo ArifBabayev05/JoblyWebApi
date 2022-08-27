@@ -10,7 +10,7 @@ namespace Business.Abstract
 
         IDataResult<List<Vacancy>> GetList();
 
-        IDataResult<List<Vacancy>> GetListByCategory(int id);
+        IDataResult<List<Vacancy>> GetListByCategory(int categoryId);
 
         IResult Add(Vacancy vacancy);
 
