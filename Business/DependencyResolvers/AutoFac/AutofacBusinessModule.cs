@@ -2,6 +2,7 @@
 using Autofac;
 using Business.Abstract;
 using Business.Concrete;
+using Entities.Concrete;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
 
@@ -19,6 +20,9 @@ namespace Business.DependencyResolvers.AutoFac
 
             builder.RegisterType<CompanyManager>().As<ICompanyService>();
             builder.RegisterType<EfCompanyDal>().As<ICompanyDal>();
+
+            builder.RegisterType<UserManager>().As<IUserService>();
+            builder.RegisterType<EfUserDal>().As<IUserDal>();
 
 
         }

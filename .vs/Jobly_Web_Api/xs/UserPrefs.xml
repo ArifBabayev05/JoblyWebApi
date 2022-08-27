@@ -1,29 +1,30 @@
 ﻿<Properties StartupConfiguration="{E7E80DF8-22D1-4CF2-89B5-3DC52E513684}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Entities/Concrete/Vacancy.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Jobly_Web_Api/Program.cs">
     <Files>
-      <File FileName="Business/Concrete/VacancyManager.cs" Line="31" Column="108" />
-      <File FileName="Jobly_Web_Api/Controllers/VacanciesController.cs" Line="40" Column="70" />
-      <File FileName="Core/EntityFramework/EfEntityRepositoryBase.cs" Line="19" Column="1" />
-      <File FileName="DataAccess/Concrete/EntityFramework/Contexts/JoblyContext.cs" Line="20" Column="1" />
-      <File FileName="DataAccess/Concrete/EntityFramework/EfCategoryDal.cs" Line="1" Column="1" />
-      <File FileName="DataAccess/Concrete/EntityFramework/EfVacancyDal.cs" Line="9" Column="83" />
-      <File FileName="Entities/Concrete/Vacancy.cs" Line="10" Column="22" />
-      <File FileName="Entities/Concrete/Category.cs" Line="1" Column="1" />
-      <File FileName="DataAccess/Abstract/IVacancyDal.cs" Line="8" Column="45" />
-      <File FileName="Core/DataAccess/IEntityRepository.cs" Line="13" Column="20" />
-      <File FileName="DataAccess/Abstract/ICategoryDal.cs" Line="1" Column="1" />
+      <File FileName="Business/Abstract/ICompanyService.cs" Line="11" Column="46" />
+      <File FileName="Business/Concrete/CompanyManager.cs" Line="50" Column="9" />
+      <File FileName="Core/EntityFramework/EfEntityRepositoryBase.cs" Line="1" Column="1" />
+      <File FileName="DataAccess/Concrete/EntityFramework/Contexts/JoblyContext.cs" Line="15" Column="25" />
+      <File FileName="DataAccess/Abstract/IUserDal.cs" Line="4" Column="1" />
+      <File FileName="DataAccess/Concrete/EntityFramework/EfUserDal.cs" Line="16" Column="33" />
+      <File FileName="Business/Abstract/IUserService.cs" Line="9" Column="42" />
       <File FileName="Business/Abstract/IVacancyService.cs" Line="1" Column="1" />
-      <File FileName="Business/Abstract/ICategoryService.cs" Line="19" Column="42" />
-      <File FileName="Business/Concrete/CategoryManager.cs" Line="10" Column="40" />
-      <File FileName="Business/DependencyResolvers/AutoFac/AutofacBusinessModule.cs" Line="1" Column="1" />
-      <File FileName="Jobly_Web_Api/Controllers/CategoryController.cs" Line="35" Column="10" />
-      <File FileName="Entities/Concrete/Image.cs" Line="14" Column="1" />
-      <File FileName="Entities/Concrete/City.cs" Line="10" Column="1" />
+      <File FileName="Business/Concrete/UserManager.cs" Line="10" Column="17" />
+      <File FileName="Business/DependencyResolvers/AutoFac/AutofacBusinessModule.cs" Line="24" Column="40" />
+      <File FileName="Entities/DTO/UserForLoginDTO.cs" Line="6" Column="38" />
+      <File FileName="Core/Entities/IDto.cs" Line="1" Column="1" />
+      <File FileName="Entities/DTO/UserForRegisterDTO.cs" Line="19" Column="1" />
+      <File FileName="Core/Utilities/Security/JWT/AccessToken.cs" Line="8" Column="35" />
+      <File FileName="Core/Utilities/Security/JWT/ITokenHelper.cs" Line="7" Column="35" />
+      <File FileName="DataAccess/Abstract/IVacancyDal.cs" Line="1" Column="1" />
+      <File FileName="Jobly_Web_Api/Program.cs" Line="26" Column="1" />
+      <File FileName="Business/Concrete/VacancyManager.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -32,12 +33,22 @@
             <Node name="Business" expanded="True">
               <Node name="Abstract" expanded="True" />
               <Node name="Concrete" expanded="True" />
-              <Node name="Constants" expanded="True" />
               <Node name="DependencyResolvers" expanded="True">
                 <Node name="AutoFac" expanded="True" />
               </Node>
             </Node>
+            <Node name="Core" expanded="True">
+              <Node name="Entities" expanded="True">
+                <Node name="Concrete" expanded="True" />
+              </Node>
+              <Node name="Utilities" expanded="True">
+                <Node name="Security" expanded="True">
+                  <Node name="JWT" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
             <Node name="DataAccess" expanded="True">
+              <Node name="Abstract" expanded="True" />
               <Node name="Concrete" expanded="True">
                 <Node name="EntityFramework" expanded="True">
                   <Node name="Contexts" expanded="True" />
@@ -46,6 +57,7 @@
             </Node>
             <Node name="Entities" expanded="True">
               <Node name="Concrete" expanded="True" />
+              <Node name="DTO" expanded="True" />
             </Node>
             <Node name="Jobly_Web_Api" expanded="True">
               <Node name="Controllers" expanded="True" />
@@ -60,5 +72,4 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Jobly__Web__Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
