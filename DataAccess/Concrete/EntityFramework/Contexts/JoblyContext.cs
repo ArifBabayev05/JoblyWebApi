@@ -1,5 +1,5 @@
 ﻿using System;
-using Entities.Concrete;
+using Entities.Concrete; 
 using Microsoft.EntityFrameworkCore;
 
 namespace DataAccess.Concrete.EntityFramework.Contexts
@@ -21,6 +21,12 @@ namespace DataAccess.Concrete.EntityFramework.Contexts
         public DbSet<City> Cities { get; set; }
 
         public DbSet<Company> Companies { get; set; }
+
+        public DbSet<User> Users { get; set; }
+
+        public DbSet<OperationClaim> OperationClaims { get; set; }
+
+        public DbSet<UserOperationClaim> UserOperationClaims { get; set; }
 
 #pragma warning restore CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.
     }
