@@ -23,6 +23,7 @@
     <None Remove="Microsoft.IdentityModel.Tokens" />
     <None Remove="Utilities\Security\Encyption\" />
     <None Remove="Extensions\" />
+    <None Remove="Utilities\Security\Hashing\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entities\" />
@@ -35,6 +36,7 @@
     <Folder Include="Entities\Concrete\" />
     <Folder Include="Utilities\Security\Encyption\" />
     <Folder Include="Extensions\" />
+    <Folder Include="Utilities\Security\Hashing\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.8" />
