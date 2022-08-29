@@ -69,3 +69,6 @@
 /Users/imac/Desktop/Jobly_Web_API/Jobly_Web_Api/Jobly_Web_Api/bin/Debug/net6.0/Entities.pdb
 /Users/imac/Desktop/Jobly_Web_API/Jobly_Web_Api/Jobly_Web_Api/bin/Debug/net6.0/Humanizer.dll
 /Users/imac/Desktop/Jobly_Web_API/Jobly_Web_Api/Jobly_Web_Api/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/imac/Desktop/Jobly_Web_API/Jobly_Web_Api/Jobly_Web_Api/bin/Debug/net6.0/Microsoft.Extensions.Configuration.dll
+/Users/imac/Desktop/Jobly_Web_API/Jobly_Web_Api/Jobly_Web_Api/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/imac/Desktop/Jobly_Web_API/Jobly_Web_Api/Jobly_Web_Api/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll

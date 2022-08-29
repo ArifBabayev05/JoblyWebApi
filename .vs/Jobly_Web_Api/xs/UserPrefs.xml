@@ -1,15 +1,21 @@
 ﻿<Properties StartupConfiguration="{E7E80DF8-22D1-4CF2-89B5-3DC52E513684}|Default">
-  <MonoDevelop.Ide.ItemProperties.Jobly__Web__Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Business/Concrete/AuthManager.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Jobly_Web_Api/Program.cs">
     <Files>
-      <File FileName="Business/Concrete/AuthManager.cs" Line="59" Column="73" />
-      <File FileName="Business/Constants/Messages.cs" Line="13" Column="77" />
+      <File FileName="Jobly_Web_Api/Program.cs" Line="27" Column="1" />
+      <File FileName="Core/Utilities/Security/JWT/JwtHelper.cs" Line="12" Column="36" />
+      <File FileName="Jobly_Web_Api/appsettings.json" Line="5" Column="31" />
+      <File FileName="DataAccess/Concrete/EntityFramework/EfUserDal.cs" Line="20" Column="1" />
+      <File FileName="Core/Utilities/Security/Hashing/HashingHelper.cs" Line="20" Column="87" />
+      <File FileName="Jobly_Web_Api/Controllers/AuthController.cs" Line="40" Column="55" />
+      <File FileName="Core/Utilities/Security/JWT/TokenOptions.cs" Line="1" Column="1" />
+      <File FileName="Core/Utilities/Security/JWT/ITokenHelper.cs" Line="8" Column="14" />
+      <File FileName="Core/Utilities/Security/JWT/AccessToken.cs" Line="8" Column="49" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,9 +23,7 @@
           <Node name="Jobly_Web_Api" expanded="True">
             <Node name="Business" expanded="True">
               <Node name="Abstract" expanded="True" />
-              <Node name="Concrete" expanded="True">
-                <Node name="AuthManager.cs" selected="True" />
-              </Node>
+              <Node name="Concrete" expanded="True" />
               <Node name="Constants" expanded="True" />
               <Node name="DependencyResolvers" expanded="True">
                 <Node name="AutoFac" expanded="True" />
@@ -30,23 +34,24 @@
               <Node name="Entities" expanded="True">
                 <Node name="Concrete" expanded="True" />
               </Node>
+              <Node name="EntityFramework" expanded="True" />
               <Node name="Extensions" expanded="True" />
               <Node name="Utilities" expanded="True">
                 <Node name="Security" expanded="True">
+                  <Node name="Encyption" expanded="True" />
                   <Node name="Hashing" expanded="True" />
+                  <Node name="JWT" expanded="True" />
                 </Node>
               </Node>
             </Node>
             <Node name="DataAccess" expanded="True">
               <Node name="Abstract" expanded="True" />
               <Node name="Concrete" expanded="True">
-                <Node name="EntityFramework" expanded="True">
-                  <Node name="Contexts" expanded="True" />
-                </Node>
+                <Node name="EntityFramework" expanded="True" />
               </Node>
             </Node>
             <Node name="Entities" expanded="True">
-              <Node name="Concrete" expanded="True" />
+              <Node name="DTO" expanded="True" />
             </Node>
             <Node name="Jobly_Web_Api" expanded="True">
               <Node name="Controllers" expanded="True" />
@@ -60,4 +65,5 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Jobly__Web__Api PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

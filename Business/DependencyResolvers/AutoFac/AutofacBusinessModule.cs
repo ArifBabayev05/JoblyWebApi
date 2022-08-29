@@ -5,6 +5,7 @@ using Business.Concrete;
 using Entities.Concrete;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
+using Core.Utilities.Security.JWT;
 
 namespace Business.DependencyResolvers.AutoFac
 {
@@ -23,6 +24,10 @@ namespace Business.DependencyResolvers.AutoFac
 
             builder.RegisterType<UserManager>().As<IUserService>();
             builder.RegisterType<EfUserDal>().As<IUserDal>();
+
+            builder.RegisterType<AuthManager>().As<IAuthService>();
+            builder.RegisterType<JwtHelper>().As<ITokenHelper>();
+            
 
 
         }
