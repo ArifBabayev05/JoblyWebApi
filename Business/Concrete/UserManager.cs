@@ -9,7 +9,7 @@ namespace Business.Concrete
     {
         private IUserDal _userDal;
 
-        private UserManager(IUserDal userDal)
+        public UserManager(IUserDal userDal)
         {
             _userDal = userDal;
         }
