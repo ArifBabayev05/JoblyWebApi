@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZLpqY6L6PMDSprUmkqPfaOTUKMUP5JqEA3jOXb1g6Ms=",
+  "Source": "Jobly_Web_Api",
+  "BasePath": "_content/Jobly_Web_Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
